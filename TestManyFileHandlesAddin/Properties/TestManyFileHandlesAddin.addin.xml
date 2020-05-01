@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionModel>
+	<Runtime>
+		<Import assembly="TestManyFileHandlesAddin.dll" />
+	</Runtime>
+
+	<Extension path="/MonoDevelop/Ide/Commands">
+		<Category id="TestManyFileHandlesAddin" _name="File Handles">
+			<Command
+				id="TestManyFileHandlesAddin.CreateManyFileHandles"
+				_label = "Create File Handles"
+				defaultHandler="TestManyFileHandlesAddin.AddFileHandlesHandler" />
+			<Command
+				id="TestManyFileHandlesAddin.DisposeFileHandles"
+				_label = "Dispose File Handles"
+				defaultHandler="TestManyFileHandlesAddin.DisposeFileHandlesHandler" />
+		</Category>
+	</Extension>
+
+	<Extension path="/MonoDevelop/Ide/MainMenu/Tools">
+		<SeparatorItem
+			id="TestManyFileHandlesSection"
+			insertafter="OptionsSection"
+			_label="File Handles" />
+		<CommandItem
+			id="TestManyFileHandlesAddin.CreateManyFileHandles"
+			insertafter="OptionsSection" />
+		<CommandItem
+			id="TestManyFileHandlesAddin.DisposeFileHandles"
+			insertafter="TestManyFileHandlesAddin.CreateManyFileHandles" />
+	</Extension>
+</ExtensionModel>

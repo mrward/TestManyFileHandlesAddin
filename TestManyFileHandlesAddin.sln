@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestManyFileHandlesAddin", "TestManyFileHandlesAddin\TestManyFileHandlesAddin.csproj", "{B6348039-0690-4CEB-A64A-8A239213CBDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6348039-0690-4CEB-A64A-8A239213CBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6348039-0690-4CEB-A64A-8A239213CBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6348039-0690-4CEB-A64A-8A239213CBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6348039-0690-4CEB-A64A-8A239213CBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
